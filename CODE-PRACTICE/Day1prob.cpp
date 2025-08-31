@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
+    cout<<"the proj";
     cout<<"Hello World"<<endl;//Q1.print Hello World
     //Q2.take two int as input and print
     int a,b;
