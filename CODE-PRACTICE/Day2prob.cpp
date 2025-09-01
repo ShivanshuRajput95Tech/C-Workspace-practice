@@ -43,6 +43,22 @@ cin>>no;
     revarm = revarm+pow(temp%10,3);
     temp/=10;
  }
- cout<<(revarm == number1 ? "Armstrong" : "Not Armstrong");//check the condition precisely with type of coma1rision would you do it
+ cout<<(revarm == number1 ? "Armstrong" : "Not Armstrong")<<endl;//check the condition precisely with type of coma1rision would you do it
+ //Q.5 Print all divisor of a number (optimized)maths and efficient loop
+
+ cout<<"Q5 Print all divisor as factor appear in pair"<<endl;
+ int fact;
+ cout<<"The Number of Factorial:";
+ cin>>fact;
+ for(int i=0;i<fact;i++){
+    if(fact%i == 0){
+        cout<<i;
+    }
+    if(i!=fact/i){
+        cout<<fact/i;
+    }
+
+ }
+
     return 0;
 }
